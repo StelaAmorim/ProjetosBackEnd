@@ -1,0 +1,77 @@
+body{
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+h3{
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+.crud{
+    background-color: rgb(20, 144, 153);
+}
+
+.chat{
+    background-color: rgb(0, 140, 255);
+}
+
+.bgs24{
+    background-color: rgb(247, 62, 15);
+}
+
+.crud:hover, .chat:hover, .bgs24:hover {
+    background-color: black;
+}
+
+img{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 650px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 1200px;
+    padding: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 300px;
+}
+
+.informacao{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caixaText{
+    width: 500px;
+}
+
+p{
+    font-size: 20px;
+    margin-left: 90px;
+}
